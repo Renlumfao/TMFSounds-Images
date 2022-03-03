@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<htm>
+<head>
+   <meta charset="ucf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Home | TMF - Sound FX & Images</title>
+   <link rel="stylesheet" href="CSS/TMF styles.1.css">
+   <!--This is the start for the date and time feature!  -->
+   <style>
+      .styling{
+      background-color: black;
+      color: #ffcc00;
+      font: bold 15px Arial;
+      }
+   </style>
+   <!--This is the end for the date and time feature!-->
+</head>
+<body style="overflow-x:hidden">
+   <header>
+      <div class="box-1">
+         <img src="IMG/TMF Logo.png">
+      </div>
+      <div class="box-2">
+         <nav>
+            <u1>
+               <li class="current button ">Home</li>
+               <li class="button "><a href="about.html"><span>About US</span></a></li>
+               <li class="button "><a href="contact.html"><span>Contact Us</span></a></li>
+               <li class="button "><a href="imagegallery.html"><span>Image Gallery</span></a></li>
+               <li class="button "><a href="sounds.html"><span>Sound Effects</span></a></li>
+               <li class="button "><a href="videos.html"><span>Videos</span></a></li>
+               <li class="button "><a href="reviews.html"><span>Reviews</span></a></li>
+            </u1>
+         </nav>
+      </div>
+   </header>
+   <!-- This is the code for the Showcase -->
+   <section class="Showcase">
+      <div>
+         <h1>Royalty Free Images, Sound Effects and Videos!</h1>
+         <p>Welcome to the TMF! This website would feature FREE TO USE stock sounds, images and newly added FREE stock videos.</p>
+      </div>
+   </section>
+   <!-- This is the code for the Newsletter -->
+   <section class="Newsletter">
+      <div class="box-1">
+         <h1>Subscribe to our Newsletter</h1>
+      </div>
+      <div class="box-2">
+         <form>
+            <input type="email" placeholder="enter email...">
+            <button type="submit" class="button2 ">Subscribe</button>
+         </form>
+      </div>
+   </section>
+   <!-- This is the code for the Boxes -->   
+   <section class="Boxes">
+      <div class="Box">
+         <img src="IMG/Sounds.jpg" />
+         <h3>Free Sounds</h3>
+         <p>On this website, you can find stock sounds that you can use without having to sign-up or licence it, just simply downlaod with a click of a button.</p>
+         <button class="button2 "><a href="sounds.html">Go to Sounds</a></button>   
+      </div>
+      <div class="Box">
+         <img src="IMG/Images.jpg" />
+         <h3>Free Images</h3>
+         <p>On this website, you can find stock images that you can use without having to sign-up or licence it, just simply download with a click of a button.</p>
+         <button class="button2 "><a href="imagegallery.html">Go to Images</a></button>   
+      </div>
+      <div class="Box">
+         <img src="IMG/Videos.jpg" />
+         <h3>Free Videos</h3>
+         <p>Now within this website, you can now find stock videos that you can use without having to sign-up or licence it, just simply download with a click of a button.</p>
+         <button class="button2"><a href="videos.html">Go to Videos</a></button> 
+      </div>
+   </section>
+   <!-- This is the code for the footer -->
+   <footer>
+      <div id="digitalclock" class="digitalclock styling"></div>
+      <div class="navbox">
+         <nav>
+            <u1>
+               <li class="current">Home</li>
+               <li><a href="about.html"><span>About US</span></a></li>
+               <li><a href="contact.html"><span>Contact Us</span></a></li>
+               <li><a href="imagegallery.html"><span>Image Gallery</span></a></li>
+               <li><a href="sounds.html"><span>Sound Effects</span></a></li>
+               <li><a href="videos.html"><span>Videos</span></a></li>
+               <li><a href="reviews.html"><span>Reviews</span></a></li>
+            </u1>
+         </nav>
+         <p>TMF - Sound FX & Images, Copyright &copy; 2019</p>
+      </div>
+      <!--social media links for the footer-->
+      <div class="socialbox">
+         <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Youtube Normal.png" onmouseover="this.src='IMG/SM LOGO/Youtube ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Youtube Normal.png'" /></a></div>
+         <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Facebook Normal.png" onmouseover="this.src='IMG/SM LOGO/Facebook ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Facebook Normal.png'"/></a></div>
+         <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Twitter Normal.png" onmouseover="this.src='IMG/SM LOGO/Twitter ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Twitter Normal.png'"/></a></div>
+      </div>
+      <script>
+         /*****************************************
+         * LCD Clock script- by Javascriptkit.com
+         * Featured on/available at http://www.dynamicdrive.com/
+         * This notice must stay intact for use
+         *****************************************/
+         
+         var alternate=0
+         
+         function show(){
+         var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+         var Digital=new Date()
+         var hours=Digital.getHours()
+         var minutes=Digital.getMinutes()
+         var dn="AM"
+         
+         if (hours==12) dn="PM" 
+         if (hours>12){
+         dn="PM"
+         hours=hours-12
+         }
+         if (hours==0) hours=12
+         if (hours.toString().length==1)
+         hours="0"+hours
+         if (minutes<=9)
+         minutes="0"+minutes
+         
+         if (alternate==0)
+         clockobj.innerHTML=hours+"<font color='yellow'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+         else
+         clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+         alternate=(alternate==0)? 1 : 0
+         setTimeout("show()",1000)
+         }
+         window.onload=show
+         
+      </script>
+   </footer>
+</body>
+</html>

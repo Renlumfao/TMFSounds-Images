@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="ucf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Contact Us | TMF - Sound FX & Images</title>
+      <link rel="stylesheet" href="CSS/TMF styles.1.css">
+
+     <!--This is the date and time feature!  -->
+      <style>
+            .styling{
+            background-color: black;
+            color: #ffcc00;
+            font: bold 15px Arial;
+         
+            }
+      </style>
+    <!--This is the end of the date and time feature!-->
+
+     <!--This is the style for the contact form -->
+      <style>
+          input[type=text], select, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+          }
+
+          input[type=submit] {
+              background-color: #ffcc00;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+          }
+
+          input[type=submit]:hover {
+              background-color: #c69f00;
+          }
+
+          .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+              width: 90%;
+              margin-left: 4%;
+          }
+     </style>
+    <!-- This is the end of the contact form styling. -->
+   </head>
+   <body>
+      <header>
+         <div class="box-1">
+            <img src="IMG/TMF Logo.png">
+         </div>
+         <div class="box-2">
+            <nav>
+               <u1>
+                  <li class="button "><a href="index.html"><span>Home</span></a></li>
+                  <li class="button "><a href="about.html"><span>About US</span></a></li>
+                  <li class="current button ">Contact Us</li>
+                  <li class="button "><a href="imagegallery.html"><span>Image Gallery</span></a></li>
+                  <li class="button "><a href="sounds.html"><span>Sound Effects</span></a></li>
+                  <li class="button "><a href="videos.html"><span>Videos</span></a></li>
+                  <li class="button "><a href="reviews.html"><span>Reviews</span></a></li>
+               </u1>
+            </nav>
+         </div>
+      </header>
+
+    <!-- This is the start of the content-->
+
+      <section style="min-height:400px;" id="main">
+
+          <br />
+          <br />
+          <h1 style="text-align: center;">Have Questions? Well... Contact Us!</h1>
+          <p style="text-align: center;">Find answers to your questions, and how you can get in touch.</p>
+          <p style="text-align: center;">If you have a question, or want to know more about what's happening at TMF, there are different ways to get involved. You can reach us with a direct message on Faceboo, Twitter or via the contact form below!</p>
+          <div class="container">
+              <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                  <label for="email">Enter Email</label>
+                  <input type="text" id="email" name="email" placeholder="Enter your email...">
+
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                      <option value="australia">Australia</option>
+                      <option value="canada">Canada</option>
+                      <option value="usa">United States of America</option>
+                      <option value="wakanda">Wakanda</option>
+                      <option value="russia">Russia</option>
+                      <option value="uk">United Kingdom</option>
+                  </select>
+
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Ask away..." style="height:200px"></textarea>
+
+                  <input type="submit" value="Submit">
+              </form>
+          </div>
+          <br />
+          <br />
+      </section>
+      
+      <!--This is the end of the content-->
+      <!--this is the start of the newsletter container-->
+     
+      <section class="Newsletter">
+         <div class="box-1">
+            <h1>Subscribe to our Newsletter</h1>
+         </div>
+         <div class="box-2">
+            <form>
+               <input type="email" placeholder="enter email...">
+               <button type="submit" class="button2 ">Subscribe</button>
+            </form>
+         </div>
+      </section>
+
+      <!-- This is the code for the footer -->
+
+      <footer>
+
+         <div id="digitalclock" class="digitalclock styling"></div>
+         <div class="navbox">
+            <nav>
+               <u1>
+                   <li><a href="index.html"><span>Home</span></a></li>
+                   <li><a href="about.html"><span>About US</span></a></li>
+                   <li class="current">Contact Us</li>
+                   <li><a href="imagegallery.html"><span>Image Gallery</span></a></li>
+                   <li><a href="sounds.html"><span>Sound Effects</span></a></li>
+                   <li><a href="videos.html"><span>Videos</span></a></li>
+                   <li><a href="reviews.html"><span>Reviews</span></a></li>
+               </u1>
+            </nav>
+            <p>TMF - Sound FX & Images, Copyright &copy; 2019</p> 
+         </div>
+         <!--social media links for the footer-->
+         <div class="socialbox">
+            <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Youtube Normal.png" onmouseover="this.src='IMG/SM LOGO/Youtube ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Youtube Normal.png'" /></a></div>
+            <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Facebook Normal.png" onmouseover="this.src='IMG/SM LOGO/Facebook ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Facebook Normal.png'"/></a></div>
+            <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Twitter Normal.png" onmouseover="this.src='IMG/SM LOGO/Twitter ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Twitter Normal.png'"/></a></div>
+         </div>
+
+         <script>
+            /*****************************************
+            * LCD Clock script- by Javascriptkit.com
+            * Featured on/available at http://www.dynamicdrive.com/
+            * This notice must stay intact for use
+            *****************************************/
+            
+            var alternate=0
+            
+            function show(){
+            var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+            var Digital=new Date()
+            var hours=Digital.getHours()
+            var minutes=Digital.getMinutes()
+            var dn="AM"
+            
+            if (hours==12) dn="PM" 
+            if (hours>12){
+            dn="PM"
+            hours=hours-12
+            }
+            if (hours==0) hours=12
+            if (hours.toString().length==1)
+            hours="0"+hours
+            if (minutes<=9)
+            minutes="0"+minutes
+            
+            if (alternate==0)
+            clockobj.innerHTML=hours+"<font color='yellow'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+            else
+            clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+            alternate=(alternate==0)? 1 : 0
+            setTimeout("show()",1000)
+            }
+            window.onload=show
+            
+         </script>
+
+
+      </footer>
+   </body>
+</html>

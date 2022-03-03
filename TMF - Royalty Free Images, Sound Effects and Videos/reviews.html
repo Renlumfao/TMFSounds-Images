@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="ucf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Customer Reviews | TMF - Sound FX & Images</title>
+      <link rel="stylesheet" href="CSS/TMF styles.1.css">
+      <!-- Font Awesome Icon Library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--This is the date and time feature!  -->
+      <style>
+         .styling {
+         background-color: black;
+         color: #ffcc00;
+         font: bold 15px Arial;
+         }
+      </style>
+      <!--This is the end of the date and time feature!-->
+      <!--This is the style for the reviews form -->
+      <style>
+         .checked {
+         color: orange;
+         }
+         .container {
+         display: flex;
+         width: 50%;
+         margin-left: 25%;
+         margin-right: 25%;
+         padding: 4px;
+         }
+         .container li {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         }
+         input[type=text], select, textarea {
+         width: 100%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+         resize: vertical;
+         }
+         input[type=submit] {
+         background-color: #ffcc00;
+         color: black;
+         padding: 12px 20px;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+         }
+         input[type=submit]:hover {
+         background-color: #fbff26;
+         }
+         .container2 {
+         border-radius: 5px;
+         background-color: #f2f2f2;
+         padding: 20px;
+         box-sizing: border-box;
+         }
+      </style>
+      <!-- This is the end of the reviews form styling. -->
+   </head>
+   <body>
+      <header>
+         <div class="box-1">
+            <img src="IMG/TMF Logo.png">
+         </div>
+         <div class="box-2">
+            <nav>
+               <u1>
+                  <li class="button "><a href="index.html"><span>Home</span></a></li>
+                  <li class="button "><a href="about.html"><span>About US</span></a></li>
+                  <li class="button "><a href="contact.html"><span>Contact Us</span></a></li>
+                  <li class="button "><a href="imagegallery.html"><span>Image Gallery</span></a></li>
+                  <li class="button "><a href="sounds.html"><span>Sound Effects</span></a></li>
+                  <li class="button "><a href="videos.html"><span>Videos</span></a></li>
+                  <li class="current button">Reviews</li>
+               </u1>
+            </nav>
+         </div>
+      </header>
+      <!-- This is the start of the content-->
+      <section style="min-height:400px;" id="main">
+         <br />
+         <h1 style="text-align: center;">Welcome to the customer reviews page!</h1>
+         <div class="container">
+            <div>
+               <ul>
+                  <li>
+                     <b>Bigman123</b>
+                  </li>
+                  <li>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star"></span>
+                  </li>
+                  <li>
+                     The service was excellent. Thanks guys, keep up the good work! Website did exactly what you said it does
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="container">
+            <div>
+               <ul>
+                  <li>
+                     <b>Fahmed23</b>
+                  </li>
+                  <li>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                  </li>
+                  <li>
+                     Without the TMF website, we would have gone bankrupt by now. Thank you for making it painless, pleasant and most of all hassle free!
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="container">
+            <div>
+               <ul>
+                  <li>
+                     <b>21HamzaA23</b>
+                  </li>
+                  <li>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                  </li>
+                  <li>
+                     I will let my mum know about this, she could really make use of the TMF Website! I love TMF. Dude, your stuff is the bomb! It really saves me time and effort. Website is exactly what our business has been lacking.
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="container">
+            <div>
+               <ul>
+                  <li>
+                     <b>13Mej1d2A1L</b>
+                  </li>
+                  <li>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star"></span>
+                     <span class="fa fa-star"></span>
+                  </li>
+                  <li>
+                     I am pleased with this website. I don't know what else to say but keep adding more content and this will be fabulous.
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <br />
+         <div class="container2">
+            <form action="/action_page.php">
+               <label for="fname">Username</label>
+               <input type="text" id="Uname" name="Uname" placeholder="Enter your username...">
+               <label for="rating">Star Rating</label>
+               <select id="rating" name="rating">
+                  <option value="1">1 Star</option>
+                  <option value="2">2 Stars</option>
+                  <option value="3">3 Stars</option>
+                  <option value="4">4 Stars</option>
+                  <option value="5">5 Stars</option>
+               </select>
+               <label for="subject">How do you feel about this TMF website?</label>
+               <textarea id="subject" name="subject" placeholder="Tell the world something you like/dislike about us. We take all feedback seriously!" style="height:200px"></textarea>
+               <input type="submit" value="Submit" style="margin-left: 25%; margin-right: 25%; width: 50%; ">
+            </form>
+         </div>
+         <br />
+         <br />
+      </section>
+      <!--This is the end of the content-->
+      <!--this is the start of the newsletter container-->
+      <section class="Newsletter">
+         <div class="box-1">
+            <h1>Subscribe to our Newsletter</h1>
+         </div>
+         <div class="box-2">
+            <form>
+               <input type="email" placeholder="enter email...">
+               <button type="submit" class="button2 ">Subscribe</button>
+            </form>
+         </div>
+      </section>
+      <!-- This is the code for the footer -->
+      <footer>
+         <div id="digitalclock" class="digitalclock styling"></div>
+         <div class="navbox">
+            <nav>
+               <u1>
+                  <li><a href="index.html"><span>Home</span></a></li>
+                  <li><a href="about.html"><span>About US</span></a></li>
+                  <li><a href="contact.html"><span>Contact Us</span></a></li>
+                  <li><a href="imagegallery.html"><span>Image Gallery</span></a></li>
+                  <li><a href="sounds.html"><span>Sound Effects</span></a></li>
+                  <li><a href="videos.html"><span>Videos</span></a></li>
+                  <li class="current">Reviews</li>
+               </u1>
+            </nav>
+            <p>TMF - Sound FX & Images, Copyright &copy; 2019</p>
+         </div>
+         <!--social media links for the footer-->
+         <div class="socialbox">
+            <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Youtube Normal.png" onmouseover="this.src='IMG/SM LOGO/Youtube ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Youtube Normal.png'" /></a></div>
+            <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Facebook Normal.png" onmouseover="this.src='IMG/SM LOGO/Facebook ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Facebook Normal.png'"/></a></div>
+            <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Twitter Normal.png" onmouseover="this.src='IMG/SM LOGO/Twitter ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Twitter Normal.png'"/></a></div>
+         </div>
+         <script>
+            /*****************************************
+            * LCD Clock script- by Javascriptkit.com
+            * Featured on/available at http://www.dynamicdrive.com/
+            * This notice must stay intact for use
+            *****************************************/
+            
+            var alternate=0
+            
+            function show(){
+            var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+            var Digital=new Date()
+            var hours=Digital.getHours()
+            var minutes=Digital.getMinutes()
+            var dn="AM"
+            
+            if (hours==12) dn="PM" 
+            if (hours>12){
+            dn="PM"
+            hours=hours-12
+            }
+            if (hours==0) hours=12
+            if (hours.toString().length==1)
+            hours="0"+hours
+            if (minutes<=9)
+            minutes="0"+minutes
+            
+            if (alternate==0)
+            clockobj.innerHTML=hours+"<font color='yellow'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+            else
+            clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+            alternate=(alternate==0)? 1 : 0
+            setTimeout("show()",1000)
+            }
+            window.onload=show
+            
+         </script>
+      </footer>
+   </body>
+</html>

@@ -1,0 +1,179 @@
+<span id="digitalclock" class="styling"></span>
+         <div class="footnav">
+            <u1>
+               <li class="current">Home</li>
+               <li><a href="about.html">About US</a></li>
+               <li><a herf="contact us.html">Contact Us</a></li>
+               <li><a herf="index.html">Image Gallery</a></li>
+               <li><a herf="index.html">Sound Effects</a></li>
+               <li><a herf="index.html">Videos  </a></li>
+            </u1>
+         </div>
+         <p>TMF - Sound FX & Images, Copyright &copy; 2019</p>
+         <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Youtube Normal.png" onmouseover="this.src='IMG/SM LOGO/Youtube ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Youtube Normal.png'" /></a></div>
+         <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Facebook Normal.png" onmouseover="this.src='IMG/SM LOGO/Facebook ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Facebook Normal.png'"/></a></div>
+         <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Twitter Normal.png" onmouseover="this.src='IMG/SM LOGO/Twitter ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Twitter Normal.png'"/></a></div>
+         
+
+
+
+           <div class="container" style="border:1px solid black;display:flex;align-items:center;flex-flow:column;justify-content:center;">
+            <div class="box">
+               <img style="height:100px;" src="IMG/Sounds.jpg" />
+               <h3>Free Sounds</h3>
+               <p>On this website, you can find stock sounds that you can use without having to sign-up or licence it, just simply downlaod with a click of a button.</p>
+               <button class="button_2"><a href="#">Go to Sounds</a></button>
+            </div>
+            <div class="box">
+               <img style="height:100px;" src="IMG/Images.jpg" />
+               <h3>Free Images</h3>
+               <p>On this website, you can find stock images that you can use without having to sign-up or licence it, just simply download with a click of a button.</p>
+               <button class="button_2"><a href="#">Go to Images</a></button>
+            </div>
+            <div class="box">
+               <img style="height:100px;" src="IMG/Videos.jpg" />
+               <h3>Free Videos</h3>
+               <p>Now within this website, you can now find stock videos that you can use without having to sign-up or licence it, just simply download with a click of a button.</p>
+               <button class="button_2"><a href="#">Go to Videos</a></button>
+            </div>
+         </div>
+
+
+
+
+          <div class="container">
+            <h1>Subscribe to our Newsletter</h1>
+            <form>
+               <input type="email" placeholder="enter email...">
+               <button type="submit" class="button_2">Subscribe</button>
+            </form>
+         </div>
+
+
+<!--
+      <section id="showcase">
+         <div class="container">
+            <h1>Royalty Free Images, Sound Effects and Videos!</h1>
+            <p>Welcome to the TMF! This website would feature FREE TO USE stock sounds, images and newly added FREE stock videos.</p>
+         </div>
+      </section>
+
+      <!--this is the start of the newsletter container-->
+      <section style="height:80px;display:flex;" id="newsletter">
+         <div style="width:50%;height:100%;display:flex;align-items:center;justify-content: center;">
+            <h1>Subscribe to our Newsletter</h1>
+
+         </div>
+         <div style="width:50%;height:100%;display: flex;align-items:center;justify-content:center;">
+            <form>
+               <input type="email" placeholder="enter email...">
+               <button type="submit" class="button_2">Subscribe</button>
+            </form>
+            </div>
+       </section>
+       <!-- this is the end of the newsletter container-->
+
+      <section style="background:none;display:flex;align-items:center;justify-content:space-around;min-height:400px" id="bdoxes">
+         <div class="boxnew">
+            <img src="IMG/Sounds.jpg" />
+               <h3>Free Sounds</h3>
+               <p>On this website, you can find stock sounds that you can use without having to sign-up or licence it, just simply downlaod with a click of a button.</p>
+               <button class="button2"><a href="#">Go to Sounds</a></button>   
+         </div>
+         <div class="boxnew">
+            <img src="IMG/Images.jpg" />
+            <h3>Free Images</h3>
+               <p>On this website, you can find stock images that you can use without having to sign-up or licence it, just simply download with a click of a button.</p>
+               <button class="button2 "><a href="#">Go to Sounds</a></button>   
+         </div>
+         <div class="boxnew">
+            <img src="IMG/Videos.jpg" />
+            <h3>Free Videos</h3>
+               <p>Now within this website, you can now find stock videos that you can use without having to sign-up or licence it, just simply download with a click of a button.</p>
+               <button class="button_2"><a href="#">Go to Sounds</a></button>      
+         </div>
+      </section>
+      <footer>
+         <div style="height:300px;margin-top:200px;" class="footnav">
+            <div class = "footleft">
+               <div class ="footlefttop">
+                  <!--navigation links for the footer-->
+                  <li class="current">Home</li>
+                  <li><a href="about.html">About US</a></li>
+                  <li><a herf="contact us.html">Contact Us</a></li>
+                  <li><a herf="index.html">Image Gallery</a></li>
+                  <li><a herf="index.html">Sound Effects</a></li>
+                  <li><a herf="index.html">Videos  </a></li>
+               </div>
+               <div class = "footsocialmedia">
+                  <!--social media links for the footer-->
+                  <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Youtube Normal.png" onmouseover="this.src='IMG/SM LOGO/Youtube ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Youtube Normal.png'" /></a></div>
+                  <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Facebook Normal.png" onmouseover="this.src='IMG/SM LOGO/Facebook ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Facebook Normal.png'"/></a></div>
+                  <div class="RIMG"><a href=""><img src="IMG/SM LOGO/Twitter Normal.png" onmouseover="this.src='IMG/SM LOGO/Twitter ROLLOVER.png'" onmouseout="this.src='IMG/SM LOGO/Twitter Normal.png'"/></a></div>
+               </div>
+            </div>
+            <div class="footcenter">
+               <div> 
+                  <!-- content can go within here -->
+               </div>
+               <p id="digitalclock"  class="styling dc"></p>
+               <p class= "t">TMF - Sound FX & Images, Copyright &copy; 2019</p>
+            </div>
+         </div>
+         <script>
+            /*****************************************
+            * LCD Clock script- by Javascriptkit.com
+            * Featured on/available at http://www.dynamicdrive.com/
+            * This notice must stay intact for use
+            *****************************************/
+            
+            var alternate=0
+            
+            function show(){
+            var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+            var Digital=new Date()
+            var hours=Digital.getHours()
+            var minutes=Digital.getMinutes()
+            var dn="AM"
+            
+            if (hours==12) dn="PM" 
+            if (hours>12){
+            dn="PM"
+            hours=hours-12
+            }
+            if (hours==0) hours=12
+            if (hours.toString().length==1)
+            hours="0"+hours
+            if (minutes<=9)
+            minutes="0"+minutes
+            
+            if (alternate==0)
+            clockobj.innerHTML=hours+"<font color='yellow'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+            else
+            clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+            alternate=(alternate==0)? 1 : 0
+            setTimeout("show()",1000)
+            }
+            window.onload=show
+            
+         </script>
+      </footer>
+-->
+
+
+
+
+<div style="border: pink solid 1px; margin: 40px auto 0px auto; display: flex; justify-content: space-between; ">
+          <div style="background: grey; box-sizing: border-box; width: 30%; padding: 20px; margin-bottom: 20px;">
+            <h4>Feature 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero elit, lacinia vitae rhoncus eget, maximus eget tortor. Morbi nec tortor faucibus, tincidunt diam a, aliquam elit. Fusce at semper tellus, ac hendrerit libero. Phasellus rhoncus metus id ligula rhoncus finibus. Donec porta hendrerit lectus.</p>
+          </div>
+          <div style="background: grey; box-sizing: border-box; width: 30%; padding: 20px; margin-bottom: 20px;">
+            <h4>Feature 2</h4>
+            <p>Donec eros elit, porttitor at odio molestie, vulputate ultrices felis. Donec at ante ac odio sagittis rutrum. Integer lacinia congue ligula vitae sollicitudin. Suspendisse sit amet egestas turpis. Pellentesque imperdiet pellentesque justo, non sagittis mauris imperdiet quis.</p>
+          </div>
+          <div style="background: grey; box-sizing: border-box; width: 30%; padding: 20px; margin-bottom: 20px;">
+            <h4>Feature 3</h4>
+            <p>Suspendisse in velit viverra, bibendum tellus quis, convallis magna. Morbi auctor, mi sed mattis iaculis, enim lectus vehicula nibh, quis mollis quam ante eget tortor. </p>
+          </div>
+        </div>
